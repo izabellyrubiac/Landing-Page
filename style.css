@@ -1,0 +1,106 @@
+* {font-family:'OCR A Std', monospace;
+}
+
+body {
+    background-image: linear-gradient(90deg, #490772, #37043b, #071677);
+    
+}
+
+div {
+    background-color:black;
+    box-shadow: 
+    0 0 10px #E43CA9,
+    0 0 10px #061A9F,
+    0 0 15px #8723C4,
+    0 0 20px #3ccbe4;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 10px; 
+    width: 900px;
+    transition: transform 0.3s ease;
+}
+
+div:hover {
+    transform: scale(1.02); 
+  }
+
+h1 {
+    color: white;
+    text-shadow:
+    0 0 5px #E43CA9,
+    0 0 10px #061A9F,
+    0 0 15px #8723C4,
+    0 0 20px #3ccbe4;
+    
+}
+
+h2 {
+    color: white;
+    text-shadow:
+    0 0 5px #E43CA9,
+    0 0 10px #061A9F,
+    0 0 15px #8723C4,
+    0 0 20px #3ccbe4;
+}
+
+h3 {
+    color: #fcfbf6;
+    text-shadow:
+    0 0 5px #E43CA9,
+    0 0 10px #061A9F,
+    0 0 15px #8723C4,
+    0 0 20px #3ccbe4;
+    font-weight: bold;
+}
+
+p {
+    color: #46bbff;
+    text-shadow:
+    0 0 5px #E43CA9,
+    0 0 10px #061A9F,
+    0 0 15px #8723C4,
+    0 0 20px #3ccbe4;
+    font-weight: bold;
+}
+
+div img {
+    width: 100px;  /* Aumenta a largura */
+    height: auto;  /* Mantém a proporção da imagem */
+  }
+
+
+  nav {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    font-family:'OCR A Std', monospace;
+    box-shadow: 
+    0 0 10px #E43CA9,
+    0 0 10px #061A9F,
+    0 0 15px #8723C4,
+    0 0 20px #3ccbe4;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  nav li a:hover {
+    color:  #b01ff3;
+    text-shadow: 0 5px 10px #02d9ff,
+    0 0 5px #8723C4;
+  }
+
